@@ -28,8 +28,8 @@
 # PARAMETERS to Update
 $folderPath = "[FOLDER_PAHT]"
 $PnPClientId = "[CLIENT_ID]"
-$PnPClienCertPath = "C:\Temp\Exports\PnP PowerShell Client App.pfx"
-$OrgTenantName = "sulavalabs"
+$PnPClienCertPath = "[CERT_PAHT]"
+$OrgTenantName = "[TENANT_NAME]"
 
 # Other internal parameters
 $SPAgentsList = @()
