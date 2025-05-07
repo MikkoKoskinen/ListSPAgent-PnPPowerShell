@@ -19,5 +19,10 @@ Saves the app details to a CSV file.
 PARAMETERS
 OBS! Remember to update the following parameters in the first section of the script.
 
-PnPClientId = The ID of the Entra application used while connecting to SharePoint
 $folderPath = The path to the folder where the CVS list is saved (for example, C:\Temp\Exports)
+$PnPClientId = The ID of the Entra application used while connecting to SharePoint (for example, xxxxxxxx-b5d4-4f79-9947-88bd96e3907f)
+$PnPClienCertPath = link and path of the certification file (for example, C:\Temp\PnP PowerShell Client App.pfx)
+$OrgTenantName = tenant name of the organisation (for example, mysptenant)
+
+More information about SharePoint agents: https://adoption.microsoft.com/en-us/sharepoint-agents/
+
